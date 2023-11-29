@@ -1,0 +1,36 @@
+# Ignore specific files or directories
+filename.txt
+directory_name/
+*.log
+logs/*.log
+
+# Ignore compiled code and build artifacts
+__pycache__/
+*.class
+node_modules/
+
+# Ignore system and temporary files
+.DS_Store
+*~
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore IDE and text editor specific files
+.idea/
+.vscode/
+.sublime-project
+.sublime-workspace
+
+# Ignore configuration files with sensitive information
+database_config.ini
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment files (Python)
+venv/
+
+# Ignore generated files or directories
+output/
