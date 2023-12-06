@@ -116,10 +116,9 @@ class DBManager:
         self.conn.close()
 
 
-db_manager = DBManager(dbname='PostgreSQL', user='postgres', password='Daana777', host='localhost', port='5432')
 
-data = HhApi().get_companies_and_vacancies('')
-db_manager.insert_data_batch(data)
+
+
 
 # print("Companies and Vacancies Count:", db_manager.get_companies_and_vacancies_count())
 # print("All Vacancies:", db_manager.get_all_vacancies())
